@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>TravelWorld Agency</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <h1>TravelWorld Agency</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="destinos.html">Destinos</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Descubre el mundo con nosotros</h2>
+</section>
+
+<main class="container">
+
+    <article class="post">
+        <img src="images/paris.jpg" alt="París">
+        <h2>Magia en París</h2>
+        <p class="meta">Publicado el 22 Febrero 2026</p>
+        <p>Descubre la belleza de la Torre Eiffel y los mejores cafés parisinos.</p>
+        <button class="btn">Leer más</button>
+    </article>
+
+    <article class="post">
+        <img src="images/cancun.jpg" alt="Cancún">
+        <h2>Playas de Cancún</h2>
+        <p class="meta">Publicado el 20 Febrero 2026</p>
+        <p>Las mejores playas del Caribe mexicano con paquetes todo incluido.</p>
+        <button class="btn">Leer más</button>
+    </article>
+
+    <!-- SECCIÓN COMENTARIOS -->
+    <section class="comments">
+        <h3>Deja tu comentario</h3>
+        <form id="commentForm">
+            <input type="text" id="name" placeholder="Tu nombre" required>
+            <textarea id="comment" placeholder="Escribe tu comentario..." required></textarea>
+            <input type="file" id="imageUpload" accept="image/*">
+            <button type="submit" class="btn">Publicar</button>
+        </form>
+
+        <div id="commentList"></div>
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 TravelWorld Agency - UNIR ISC Bogdar Iván Ramírez Hernández</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
